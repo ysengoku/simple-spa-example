@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPA Demo - Partial Update</title>
+    <link href="./style.css" rel="stylesheet" />
+</head>
+<body>
+    <!-- Static Header -->
+    <header>
+        <h1>SPA Demo - Partial Update</h1>
+        <p>Static Header: remains the same across pages</p>
+    </header>
+
+    <!-- Static Navigation -->
+    <nav>
+        <a href="#/" id="home-link" class="active">Home</a>
+        <a href="#/profile" id="profile-link">Profile</a>
+        <a href="#/settings" id="settings-link">Settings</a>
+    </nav>
+
+    <!-- Dynamic Content Area -->
+    <div id="app">
+        <div id="section1" class="section">
+            <h2>Section 1</h2>
+            <p>This part is always updated.</p>
+        </div>
+        <div id="section2" class="section">
+            <h2>Section 2</h2>
+            <p>The content here changes based on the current view.</p>
+        </div>
+    </div>
+
+    <!-- Static Footer -->
+    <footer>
+        <p>Static Footer: remains the same across pages</p>
+    </footer>
+
+    <script src="./main.js"></script>
+</body>
+</html>

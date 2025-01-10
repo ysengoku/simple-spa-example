@@ -1,0 +1,13 @@
+body { 
+	font-family: Arial, sans-serif; 
+	margin: 0; 
+	padding: 0;
+}
+
+header, footer { background-color: #f4f4f4; padding: 10px 20px; text-align: center; }
+nav { background-color: #ddd; padding: 10px; text-align: center; }
+nav a { margin: 0 10px; text-decoration: none; color: blue; }
+nav a.active { font-weight: bold; color: red; }
+#app { display: flex; justify-content: space-around; padding: 20px; }
+.section { width: 45%; border: 1px solid #ddd; padding: 10px; }
+footer { position: fixed; bottom: 0; width: 100%; }

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPA Demo with some static components</title>
+    <link href="./style.css" rel="stylesheet" />
+</head>
+<body>
+    <!-- Static header -->
+    <header>
+        <h1>SPA DEMO with some static components</h1>
+        <p>Header (Shared by all views)</p>
+    </header>
+
+    <!-- Static nav -->
+    <nav>
+        <a href="#/" id="home-link" class="active">Home</a>
+        <a href="#/profile" id="profile-link">Profile</a>
+        <a href="#/settings" id="settings-link">Settings</a>
+    </nav>
+
+    <!-- Dynamic content area -->
+    <div id="app">
+        <!-- Default content -->
+        <h1>Home</h1>
+        <p>Welcome to my SPA!</p>
+    </div>
+
+    <!-- Static footer -->
+    <footer>
+        <p>Footer (Shared by all views)</p>
+    </footer>
+    <script src="./main.js"></script>
+</body>
+</html>
