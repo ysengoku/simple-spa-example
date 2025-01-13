@@ -1,0 +1,41 @@
+body {
+	font-family: Arial, sans-serif;
+	text-align: center;
+	color :#c4d2da;
+	background-color: #0C202B;
+	margin: 0;
+	padding: 20px;
+}
+
+h1 {
+	color :#ae3855;
+}
+  
+#app {
+	max-width: 800px;
+	margin: auto;
+}
+
+div {
+	margin: 100px;
+}
+  
+canvas {
+	display: block;
+	margin: 20px auto;
+	border-radius: 8px;
+	background-color: #1c4b65;
+}
+  
+input {
+	margin: 10px;
+}
+
+button {
+	background-color: #1c4b65;
+	color: #c4d2da;
+	border: none;
+	border-radius: 4px;
+	padding: 10px 20px;
+	cursor: pointer;
+}

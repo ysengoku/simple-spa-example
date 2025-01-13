@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	  <meta charset="UTF-8">
+	  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	  <title>SPA Demo - Partial Update</title>
+	  <link href="./style.css" rel="stylesheet" />
+  </head>
+  <body>
+	  <!-- Static Header -->
+	  <header>
+		  <h1>Demo - Canvas Animation & Bar Graph</h1>
+	  </header>
+  
+	  <!-- Dynamic Content Area -->
+	  <div>
+		<h2>Bouncing Ball Animation</h2>
+		<canvas id="animationCanvas" width="600" height="400" style="border:1px solid #ccc;"></canvas>
+		<button id="startAnimation">Start Animation</button>
+		<button id="stopAnimation" disabled>Stop Animation</button>
+	  </div>
+  
+	  <!-- Bar Graph -->
+	  <div>
+		<h2>Animated Horizontal Bar Graph</h2>
+		<label for="valueInput">Enter a value (0-100): </label>
+		<input type="number" id="valueInput" min="0" max="100" step="1" value="50">
+		<br>
+		<button id="updateGraph">Update Graph</button>
+		<button id="resetGraph">Reset Graph</button>
+	  
+		<canvas id="graphCanvas" width="600" height="200" style="border:1px solid #c4d2da; margin-top: 20px;"></canvas>
+	  </div>
+  
+	  <script src="./main.js"></script>
+  </body>
+</html>
+  
